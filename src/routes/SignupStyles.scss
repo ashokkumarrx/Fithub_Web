@@ -1,0 +1,80 @@
+/* Basic reset for styles */
+
+  
+  /* Body styles or any other global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #191919;
+  }
+  
+  /* Styles for the login container */
+  .login {
+    max-width: 400px;
+    top: 500%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #191919;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px 1px #FB8122;
+    
+  }
+  
+  /* Styles for the form elements */
+  .login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FB8122;
+  }
+
+  .login h5{
+    color: #FB8122;
+    text-align: left;
+    margin-left: 4%;
+  }
+  
+  .login form input[type='name'],
+  .login form input[type='email'],
+  .login form input[type='password'],
+  .login form input[type='submit'] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #FB8122;
+  }
+
+  .login form input[type='name']:hover,
+  .login form input[type='email']:hover,
+  .login form input[type='password']:hover{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #90fbf9;
+    box-shadow: 0 1px 5px 1px #90fbf9;
+  }
+  
+  .login form input[type='submit'] {
+    background-color: #FB8122;
+    color: #E1E2E2;
+    cursor: pointer;
+  }
+  
+  .login form input[type='submit']:hover {
+    background-color: #E1E2E2;
+    color: #FB8122;
+  }
+  
+  .login p {
+    text-align: center;
+    margin-top: 20px;
+    color: #E1E2E2;
+  }
+  
+  .login a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FB8122;
+  }
+  

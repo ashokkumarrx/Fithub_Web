@@ -1,0 +1,106 @@
+.fitnessbody {
+    background-color:#1D2228; 
+  }
+
+  .fitnessbody h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FB8122;
+  }
+
+  .fitnessbody p {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #E1E2E2;
+    width: 85%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .fitnesschart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ce732d;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    background-color: #363062;
+  }
+  
+  .fit-text {
+    color: #ce732d;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .imge img {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .plans-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Adjust spacing between items */
+  }
+  
+  .plandet {
+    background-color:#1D2228;
+    flex-direction: row;/* Adjust width and spacing */
+    border: 1px solid #FB8122;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .plandet h4 {
+    color: #E1E2E2;
+    margin-bottom: 10px;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  
+  .plandet a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .plandet a.mem {
+    background-color: #FB8122;
+    color: #E1E2E2;
+  }
+  
+  .plandet a.det {
+    background-color: #FB8122;
+    color: #E1E2E2;
+  }
+  
+  .plandet a:hover {
+    opacity: 0.8;
+    background-color: #E1E2E2;
+    color: #FB8122;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .plans-container {
+      justify-content: center;
+    }
+  
+    .plandet {
+      flex: 0 0 calc(50% - 20px); /* Two items per row */
+      margin-bottom: 20px;
+    }
+  }
